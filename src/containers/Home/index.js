@@ -15,8 +15,8 @@ export default class Home extends Component {
       <div className={styles}>
         <div id="banner">
           <div className="container">
-            <h1>A foundational boilerplate for writing Ethereum Dapps using Truffle, React, Redux & Material-UI</h1>
-            <p className="description">React Dapp Boilerplate gives you a scalable architecture for building
+            <h1>A professional UI boilerplate for <br />developing Ethereum Dapps using <br />Truffle, React, & Redux</h1>
+            <p className="description">React Dapp Boilerplate gives you a professional front-end architecture for building
             production-ready Dapps that use the best libraries the Web has to offer.</p>
             <div className="logo"></div>
             <div id="install">
@@ -98,9 +98,9 @@ export default class Home extends Component {
             </ul>
           </div>
           <div id="contribute" className="section">
-            <h2>Want to Contribute?</h2>
+            <h2>Want To Contribute?</h2>
             <p>React Dapp Boilerplate is an evolving project and we need your help!  Our mission is to encapsulate the best
-            technologies the Web has to offer in a single foundational boilerplate for anyone to use.</p>
+            technologies the Web has to offer in a single foundational boilerplate so that you can easily build your Dapp.</p>
             <p>If you have any ideas or suggestions, please contribute.</p>
           </div>
           <div id="contribute" className="section">
@@ -108,14 +108,14 @@ export default class Home extends Component {
             <p>The code is available under the <a href="https://github.com/hackingbeauty/jimjam/blob/master/LICENSE.md">MIT license</a>.</p>
           </div>
           <div className="section">
-            <h2>Join the Slack Community</h2>
-            <p>Join our <a href="https://reactdapps.slack.com/">Slack community</a> to get help and ask questions.
+            <h2>Join The Slack Community</h2>
+            <p>Join the <a href="https://reactdapps.herokuapp.com/" target="_blank">Slack community</a> to get help and ask questions.
             </p>
           </div>
           <div id="learn" className="section">
             <h2>Learn</h2>
-            <p>The video course <a href="http://reactdapps.com/">How To Write A React Dapp</a> is a step-by-step guide on developing a real Dapp using Truffle, React, 
-              Redux, React Router 4 and Material-UI.
+            <p>The video course <a href="http://reactdapps.com/" target="_blank">How To Write A React Dapp</a> is a step-by-step guide on developing a real Dapp using Truffle, React, 
+              and Redux.
             </p>
             <p>The course guides you in developing a real decentralized app for Ethereum using this Boilerplate.</p>
             <br />
@@ -126,10 +126,6 @@ export default class Home extends Component {
             <p>Please email Mark at <strong>mark.muskardin@gmail.com</strong> if you need help
               building the next generation of apps for the Web.
             </p>
-          </div>
-          <div className="section">
-            <h2>Thank You</h2>
-            <p>This boilerplate was developed with the assistance of expert engineers at <a href="https://www.qbisins.com/">QBIS</a>, a leader in insurance technology.</p>
           </div>
         </div>
       </div>
