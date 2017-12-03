@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Button               from 'components/Button';
-import img                  from  'assets/images/voice-record-image.png';
+import img                  from  'assets/images/react-dapps.png';
 
 
 /* component styles */
@@ -16,13 +15,13 @@ export default class Home extends Component {
       <div className={styles}>
         <div id="banner">
           <div className="container">
-            <h1>A Single Page Application foundation for apps developed with React & Redux & Material-UI</h1>
-            <p className="description">JimJam gives you a scalable architecture for building
-            production-ready Web apps that use the latest features of the Web.</p>
+            <h1>A foundational boilerplate for writing Ethereum Dapps using Truffle, React, Redux & Material-UI</h1>
+            <p className="description">React Dapp Boilerplate gives you a scalable architecture for building
+            production-ready Dapps that use the best libraries the Web has to offer.</p>
             <div className="logo"></div>
             <div id="install">
               <span id="msg">Install</span>
-              <span className="command">git clone git@github.com:hackingbeauty/jimjam.git</span>
+              <span className="command">git clone git@github.com:hackingbeauty/react-dapp-boilerplate.git</span>
             </div>
           </div>
         </div>
@@ -32,7 +31,7 @@ export default class Home extends Component {
             <ul>
               <li>
                 <span className="label">First, clone the boilerplate.</span>
-                <span className="command">$ git clone git@github.com:hackingbeauty/jimjam.git</span>
+                <span className="command">$ git clone git@github.com:hackingbeauty/react-dapp-boilerplate.git</span>
               </li>
               <li>
                 <span className="label">Second, install all dependencies.</span>
@@ -51,6 +50,10 @@ export default class Home extends Component {
           <div id="features" className="section">
             <h2>Features</h2>
             <ul>
+              <li>
+                <h3><a href="http://truffleframework.com">Truffle</a></h3>
+                <p>The most popular Ethereum development framework</p>
+              </li>
               <li>
                 <div className="react-img"></div>
                 <h3><a href="https://facebook.github.io/react/">React</a></h3>
@@ -96,13 +99,9 @@ export default class Home extends Component {
           </div>
           <div id="contribute" className="section">
             <h2>Want to Contribute?</h2>
-            <p>JimJam is an evolving project and we need your help!  Our mission is to encapsulate the best
+            <p>React Dapp Boilerplate is an evolving project and we need your help!  Our mission is to encapsulate the best
             technologies the Web has to offer in a single foundational boilerplate for anyone to use.</p>
             <p>If you have any ideas or suggestions, please contribute.</p>
-            <br />
-            <div className="center">
-              <a href="https://github.com/hackingbeauty/jimjam/blob/master/.github/CONTRIBUTING.md"><Button label="Start Contributing" raised={true} /></a>
-            </div>
           </div>
           <div id="contribute" className="section">
             <h2>License</h2>
@@ -110,17 +109,17 @@ export default class Home extends Component {
           </div>
           <div className="section">
             <h2>Join the Slack Community</h2>
-            <p>Join our <a href="https://singlepageapp.slack.com">Slack community</a> to get help and ask questions.
+            <p>Join our <a href="https://reactdapps.slack.com/">Slack community</a> to get help and ask questions.
             </p>
           </div>
           <div id="learn" className="section">
             <h2>Learn</h2>
-            <p>The video course <a href="http://singlepageapplication.com/">How to Write a Single Page Application</a> is a step-by-step guide on developing a professional app for the Web using React, Redux, React Router 4 
-              and Material-UI.
+            <p>The video course <a href="http://reactdapps.com/">How To Write A React Dapp</a> is a step-by-step guide on developing a real Dapp using Truffle, React, 
+              Redux, React Router 4 and Material-UI.
             </p>
-            <p>The course guides you in developing a real app for the Web using the JimJam Boilerplate.</p>
+            <p>The course guides you in developing a real decentralized app for Ethereum using this Boilerplate.</p>
             <br />
-            <a href="http://singlepageapplication.com/"><img src={img} alt="Voice Record Pro image" /></a>
+            <a href="http://reactdapps.com"><img src={img} alt="React Dapps main page image" /></a>
           </div>
           <div id="contribute" className="section">
             <h2>Consulting/Help</h2>

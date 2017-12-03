@@ -1,7 +1,7 @@
 {
-  "name": "jimjam",
+  "name": "ReactDappBoilerplate",
   "version": "1.0.0",
-  "description": "A React/Redux Progressive Mobile Web App boilerplate",
+  "description": "A Dapp boilerplate using Truffle, React, & Redux",
   "scripts": {
     "clean": "rimraf dist",
     "build": "webpack --progress --verbose --colors --display-error-details --config webpack/common.config.js",

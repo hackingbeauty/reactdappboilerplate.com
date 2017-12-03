@@ -24,13 +24,13 @@ class Header extends Component {
       <div className={styles}>
         <header>
           <AppBar
-            title="JimJam Boilerplate"
+            title="React Dapp Boilerplate"
             onLeftIconButtonTouchTap={this.handleToggle} />
             <div id="header-btn1">
-              <a href="https://github.com/hackingbeauty/jimjam"><Button label="SOURCE CODE" flat={true} /></a>
+              <a href="https://github.com/hackingbeauty/react-dapp-boilerplate"><Button label="SOURCE CODE" flat={true} /></a>
             </div>
             <div id="header-btn2" >
-              <a href="https://github.com/hackingbeauty/jimjam/blob/master/README.md"><Button label="DOCS" flat={true} /></a>
+              <a href="https://github.com/hackingbeauty/react-dapp-boilerplate/blob/master/README.md"><Button label="DOCS" flat={true} /></a>
             </div>
         </header>
       </div>
