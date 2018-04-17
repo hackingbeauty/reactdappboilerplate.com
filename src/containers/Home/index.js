@@ -80,7 +80,7 @@ export default class Home extends Component {
                 <p>HTML5 Service Worker ready</p>
               </li>
               <li>
-                <h3><a href="https://webpack.js.org/">Webpack 3</a></h3>
+                <h3><a href="https://webpack.js.org/">Webpack 4</a></h3>
                 <p>Superior module & asset bundler</p>
               </li>
               <li>
