@@ -68,11 +68,11 @@ export default class Home extends Component {
                 <p>A declarative routing library for React apps</p>
               </li>
               <li>
-                <h3><a href="http://www.material-ui.com/">Material-UI</a></h3>
+                <h3><a href="http://www.material-ui.com/">Material-UI 1.0 (latest version)</a></h3>
                 <p>A set of React components that implement Material Design from Google</p>
               </li>
               <li>
-                <h3><a href="https://github.com/css-modules/css-modules">CSS Modules</a></h3>
+                <h3><a href="https://github.com/css-modules/css-modules">CSS Modules & Scalable CSS Architecture</a></h3>
                 <p>Encapsulate your styles for each component</p>
               </li>
               <li>
