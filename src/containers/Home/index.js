@@ -76,10 +76,6 @@ export default class Home extends Component {
                 <p>Encapsulate your styles for each component</p>
               </li>
               <li>
-                <h3><a href="https://developers.google.com/web/fundamentals/getting-started/primers/service-workers">Service Worker</a></h3>
-                <p>HTML5 Service Worker ready</p>
-              </li>
-              <li>
                 <h3><a href="https://webpack.js.org/">Webpack 4</a></h3>
                 <p>Superior module & asset bundler</p>
               </li>
