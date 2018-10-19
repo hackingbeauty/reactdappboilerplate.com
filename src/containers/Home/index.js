@@ -105,17 +105,17 @@ export default class Home extends Component {
           </div>
           <div className="section">
             <h2>Join The Slack Community</h2>
-            <p>Join the <a href="https://reactdapps.herokuapp.com/" target="_blank">Slack community</a> to get help and ask questions.
+            <p>Join the <a href="https://publicslack.com/slacks/hackingbeauty/invites/new" target="_blank">Slack community</a> to get help and ask questions.
             </p>
           </div>
           <div id="learn" className="section">
             <h2>Learn</h2>
-            <p>The video course <a href="http://reactdapps.com/" target="_blank">How To Write A React Dapp</a> is a step-by-step guide on developing a real Dapp using Truffle, React, 
+            <p>The video course <a href="https://fullstackdapps.com/" target="_blank">How To Develop A Full Stack Dapp</a> is a step-by-step guide on developing a real Dapp using Truffle, React, 
               and Redux.
             </p>
             <p>The course guides you in developing a real decentralized app for Ethereum using this Boilerplate.</p>
             <br />
-            <a href="http://reactdapps.com"><img src={img} alt="React Dapps main page image" /></a>
+            <a href="https://fullstackdapps.com"><img src={img} alt="Full Stack dapps main page image" /></a>
           </div>
           <div id="contribute" className="section">
             <h2>Consulting/Help</h2>
