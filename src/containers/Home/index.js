@@ -21,7 +21,7 @@ export default class Home extends Component {
             <div className="logo"></div>
             <div id="install">
               <span id="msg">Install</span>
-              <span className="command">git clone git@github.com:hackingbeauty/react-dapp-boilerplate.git</span>
+              <span className="command">git clone https://github.com/hackingbeauty/react-dapp-boilerplate.git</span>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default class Home extends Component {
             <ul>
               <li>
                 <span className="label">First, clone the boilerplate.</span>
-                <span className="command">$ git clone git@github.com:hackingbeauty/react-dapp-boilerplate.git</span>
+                <span className="command">$ git clone https://github.com/hackingbeauty/react-dapp-boilerplate.git</span>
               </li>
               <li>
                 <span className="label">Second, install all dependencies.</span>
