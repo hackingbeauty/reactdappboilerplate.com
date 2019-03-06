@@ -124,7 +124,7 @@ export default class Home extends Component {
           </div>
           <div id="contribute" className="section">
             <h2>License</h2>
-            <p>The code is available under the <a href="https://github.com/hackingbeauty/jimjam/blob/master/LICENSE.md">MIT license</a>.
+            <p>The code is available under the <a href="https://github.com/hackingbeauty/react-dapp-boilerplate/blob/master/LICENSE.md">MIT license</a>.
             That means you can use the code for any project you could possibliy think of (commercial or non-commercial).</p>
           </div>
           <div className="section">
