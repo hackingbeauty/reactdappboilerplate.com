@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import img                  from 'assets/images/react-dapps.png';
+import proofOfExImg         from 'assets/images/proof-of-ex-iphone-encased.png';
 import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover.png';
 import { styles }           from './styles.scss';
 
@@ -16,7 +16,9 @@ export default class Home extends Component {
             <h1>An expert foundational UI boilerplate for developing Ethereum DApps using Truffle, React, Redux, and Webpack</h1>
             <img src={boxCover} width="500px"  alt="React DApp boilerplate box cover" />
             <h2 className="description">React DApp Boilerplate gives you a professional front-end architecture for building
-            production-ready decentralized applications that use the best libraries the Web has to offer.</h2>
+            production-ready decentralized applications that use the best libraries the Web has to offer.</h2>\
+            <br />
+            <h2>Hook it up to any Smart Contract on Ethereum!</h2>
           </div>
         </div>
         <div className="container">
@@ -64,11 +66,15 @@ export default class Home extends Component {
               </li>
               <li>
                 <h3><a href="http://redux.js.org/">Redux</a></h3>
-                <p>The gold standard of managing application state.</p>
+                <p>The gold standard of managing application state, and the data that flows through your DApp.</p>
+              </li>
+              <li>
+                <h3><a href="https://github.com/css-modules/css-modules">MetaMask Detection Logic</a></h3>
+                <p>The first thing your DApp needs to do is detect MetaMask, and set it up as your DApp's provider.</p>
               </li>
               <li>
                 <h3><a href="https://reacttraining.com/react-router/">React Router 4</a></h3>
-                <p>A declarative routing library for React apps.</p>
+                <p>A declarative routing library for React apps.  Design with the URL in mind.</p>
               </li>
               <li>
                 <h3><a href="http://www.material-ui.com/">Material-UI</a></h3>
@@ -79,20 +85,24 @@ export default class Home extends Component {
                 <p>Don't use CSS-In-JavaScript.  Use CSS Modules.  <br />You'll be glad you did.</p>
               </li>
               <li>
-                <h3><a href="https://webpack.js.org/">Webpack 4</a></h3>
-                <p>A professional Webpack configuration comes with this boilerplate.</p>
+                <h3><a href="https://webpack.js.org/">Webpack</a></h3>
+                <p>A professional Webpack configuration for both dev & prod mode comes with this boilerplate.</p>
               </li>
               <li>
-                <h3><a href="https://babeljs.io/">Automated Developer Workflow</a></h3>
+                <h3><a href="https://eslint.org/">Automated Developer Workflow</a></h3>
                 <p>Write your app in ES6, and have your code be automatically linted before you can do a Git commit.</p>
               </li>
               <li>
-                <h3><a href="https://babeljs.io/">Superior Directory Structure</a></h3>
+                <h3><a href="https://fullstackdapps.com">Superior Directory Structure</a></h3>
                 <p>The way you organize your directory structure is important.  Don't start out with Create-React-App.</p>
               </li>
               <li>
                 <h3><a href="https://en.wikipedia.org/wiki/Responsive_web_design">Responsive</a></h3>
                 <p>Build a front-end interface that can run on any device on the planet.</p>
+              </li>
+              <li>
+                <h3><a href="https://fullstackdapps.com">Much, Much More...</a></h3>
+                <p>This set up comes with everything you'll need for you or an entire team.</p>
               </li>
             </ul>
           </div>
@@ -120,7 +130,7 @@ export default class Home extends Component {
             <p>In the program, you'll create a decentralized digital asset marketplace while hooking up an expert UI to an ERC721 Non-fungible token Smart Contract on Etherem.</p>
             <p>By the end of the training program, you'll be a full-stack DApp developer and one of the world's first blockchain developers.</p>
             <br />
-            <a href="https://fullstackdapps.com"><img src={img} alt="Full Stack dapps main page image" /></a>
+            <a href="https://fullstackdapps.com"><img src={proofOfExImg} alt="Full Stack dapps main page image" /></a>
           </div>
           <div id="contribute" className="section">
             <h2>Consulting</h2>

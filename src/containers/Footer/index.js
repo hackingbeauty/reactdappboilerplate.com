@@ -1,5 +1,7 @@
-import React, { Component }         from 'react';
-import { connect }                  from 'react-redux';
+import React, { Component }   from 'react';
+import { connect }            from 'react-redux';
+import fullStackDappsLogo     from 'assets/images/fullstack-dapps-logo.png';
+
 
 /* component styles */
 import { styles } from './styles.scss';
@@ -12,7 +14,8 @@ class Footer extends Component {
   render() {
     return (
       <div className={styles}>
-        <p>This project is currently maintained by <a href="https://github.com/hackingbeauty">hackingbeauty</a>.</p>
+        <img src={fullStackDappsLogo} alt="Full Stack DApps logo" />
+        <p>This project is maintained by <a href="https://github.com/hackingbeauty">Hacking Beauty</a></p>
         <br />
       </div>
     );

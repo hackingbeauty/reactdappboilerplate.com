@@ -69,12 +69,14 @@
       font-weight: bold;
       margin-bottom: 50px;
       text-transform: uppercase;
+      font-style: italic;
+      font-family: 'Asap', sans-serif;
     }
 
-    p {
+    h2 {
       color: $darkGrey;
       &.description {
-        font-size: 1.4em;
+        font-size: 1.5em;
       }
     }
 
@@ -142,6 +144,18 @@
   #contribute {
     .btn {
       text-align: center;
+    }
+  }
+
+  #learn {
+    text-align: center;
+
+    p {
+      text-align: left;
+    }
+
+    img {
+      width: 70%
     }
   }
 
