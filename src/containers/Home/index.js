@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import proofOfExImg         from 'assets/images/proof-of-ex-iphone-encased.png';
 import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover.png';
+import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import { styles }           from './styles.scss';
 
 export default class Home extends Component {
@@ -16,7 +17,7 @@ export default class Home extends Component {
             <h1>An expert foundational UI boilerplate for developing Ethereum DApps using Truffle, React, Redux, and Webpack</h1>
             <img src={boxCover} width="500px"  alt="React DApp boilerplate box cover" />
             <h2 className="description">React DApp Boilerplate gives you a professional front-end architecture for building
-            production-ready decentralized applications that use the best libraries the Web has to offer.</h2>\
+            production-ready decentralized applications that use the best libraries the Web has to offer.</h2>
             <br />
             <h2>Hook it up to any Smart Contract on Ethereum!</h2>
           </div>
@@ -43,14 +44,19 @@ export default class Home extends Component {
               </li>
             </ul>
           </div>
+
+          <div id="what-you-should-see" className="section">
+            <h2>This is what you should see when you first boot up...</h2>
+            <img src={boilerplateImg} alt="First view when React DApp boilerplate boots up" />
+          </div>
           <div id="summary" className="section">
             <h2>Summary</h2>
-            <p>You'd never use Create-React-App to lay the foundation of a professional React app.</p>
+            <p>You'd never use Create-React-App to lay the foundation of a professional full-stack DApp.</p>
             <p>That's because Create-React-App gives you a very poor organizational structure and setup.  Most teams end up ejecting their React setup when they create their apps using Create-React-App anyway.
             </p>
             <p>So why not just start your DApp the right way?</p>
             <p>React DApp boilerplate gives you an expert foundation to build any kind of full-stack DApp.  It's created by professionals in the industry and it has everything you need.</p>
-            <p>And you don't have to be an expert yourself to know how to use it.</p>
+            <p>And you don't have to be an expert yourself to be able to use it.</p>
           </div>
           <div id="features" className="section">
             <h2>Features</h2>
@@ -73,12 +79,16 @@ export default class Home extends Component {
                 <p>The first thing your DApp needs to do is detect MetaMask, and set it up as your DApp's provider.</p>
               </li>
               <li>
-                <h3><a href="https://reacttraining.com/react-router/">React Router 4</a></h3>
-                <p>A declarative routing library for React apps.  Design with the URL in mind.</p>
-              </li>
-              <li>
                 <h3><a href="http://www.material-ui.com/">Material-UI</a></h3>
                 <p>A set of pre-made React components that that look and feel great.  Put on your designer hat!</p>
+              </li>
+              <li>
+                <h3><a href="https://web3js.readthedocs.io">Web3.js Configuration</a></h3>
+                <p>Web3.js needs to be configured correctly, otherwise you can't make Smart Contract calls from the UI.</p>
+              </li>
+                       <li>
+                <h3><a href="https://reacttraining.com/react-router/">React Router 4</a></h3>
+                <p>A declarative routing library for React apps.  Design with the URL in mind.</p>
               </li>
               <li>
                 <h3><a href="https://github.com/css-modules/css-modules">CSS Modules</a></h3>
@@ -123,8 +133,8 @@ export default class Home extends Component {
             </p>
           </div>
           <div id="learn" className="section">
-            <h2>Become One Of The World's First Blockchain Developers</h2>
-            <p>For those ready to accelerate their learning of DApp development fast, check out <a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps</a>.</p>
+            <h2>Training Program</h2>
+            <p>For those ready to accelerate their learning of DApp development fast, register for <a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps</a>.</p>
             <p><a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps</a> is a step-by-step training program that teaches you how to develop and design a real DApp using Truffle, React, Redux, and a Smart Contract written in Solidity.
             </p>
             <p>In the program, you'll create a decentralized digital asset marketplace while hooking up an expert UI to an ERC721 Non-fungible token Smart Contract on Etherem.</p>
