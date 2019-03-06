@@ -24,8 +24,7 @@ class Header extends Component {
       <div className={styles}>
         <header>
           <AppBar
-            title="React Dapp Boilerplate"
-            onLeftIconButtonTouchTap={this.handleToggle} />
+            title="React Dapp Boilerplate"/>
             <div id="header-btn1">
               <a href="https://github.com/hackingbeauty/react-dapp-boilerplate"><Button label="SOURCE CODE" flat={true} /></a>
             </div>

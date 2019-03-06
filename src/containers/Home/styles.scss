@@ -59,20 +59,20 @@
   }
 
   #banner {
-    background: $darkGrey;
     text-align: center;
     padding: 30px 20px;
-    color: $white;
+    color: $darkGrey;
     margin-bottom: 40px;
 
     h1 {
       font-size: 3em;
       font-weight: bold;
       margin-bottom: 50px;
+      text-transform: uppercase;
     }
 
     p {
-      color: $grey;
+      color: $darkGrey;
       &.description {
         font-size: 1.4em;
       }
@@ -92,13 +92,13 @@
   }
 
   #getting-started {
-    background: $gold;
+    background: $purple;
     color: $white;
     background: $darkGrey;
 
     h2 {
-      background: $gold;
-      border-bottom: 1px solid $white;
+      background: $purple;
+      border-bottom: 1px solid $purple;
 
       &:before,
       &:after {
@@ -132,9 +132,10 @@
 
   #features {
     li {
-      width: 50%;
+      width: 49%;
       float: left;
       margin-bottom: 35px;
+      margin-right: 5px;
     }
   }
 

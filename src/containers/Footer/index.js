@@ -13,6 +13,7 @@ class Footer extends Component {
     return (
       <div className={styles}>
         <p>This project is currently maintained by <a href="https://github.com/hackingbeauty">hackingbeauty</a>.</p>
+        <br />
       </div>
     );
   }
