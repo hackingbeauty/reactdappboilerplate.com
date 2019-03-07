@@ -119,7 +119,11 @@ export default class Home extends Component {
           </div>
           <div id="youtube-video" className="section">
             <h2>Watch The Training Video</h2>
+            <p>Get a personal walkthrough on how React DApp Boilerplate is set up.</p>
             <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s"><img src={youtubeVideoSnapshot} alt="training video" /></a>
+            <br />
+            <br />
+            <br />
             <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s">Watch the training video on Youtube now.</a>
           </div>
           <div id="contribute" className="section">
