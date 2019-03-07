@@ -140,6 +140,7 @@ export default class Home extends Component {
             <p>In the program, you'll create a decentralized digital asset marketplace while hooking up an expert UI to an ERC721 Non-fungible token Smart Contract on Etherem.</p>
             <p>By the end of the training program, you'll be a full-stack DApp developer and one of the world's first blockchain developers.</p>
             <br />
+            <br />
             <a href="https://fullstackdapps.com"><img src={proofOfExImg} alt="Full Stack dapps main page image" /></a>
           </div>
           <div id="contribute" className="section">
