@@ -17,8 +17,7 @@ export default class Home extends Component {
           <div className="container">
             <h1>An expert foundational UI boilerplate for developing Ethereum DApps using Truffle, React, Redux, and Webpack</h1>
             <img src={boxCover} width="500px"  alt="React DApp boilerplate box cover" />
-            <h2 className="description">React DApp Boilerplate gives you a professional front-end architecture for building
-            production-ready decentralized applications that use the best libraries the Web has to offer.</h2>
+            <h2 className="description">React DApp Boilerplate gives you an expert front-end architecture for building decentralized applications that use the best libraries the Web has to offer.</h2>
             <br />
             <h2>Hook it up to any Smart Contract on Ethereum!</h2>
           </div>
@@ -52,12 +51,10 @@ export default class Home extends Component {
           </div>
           <div id="summary" className="section">
             <h2>Summary</h2>
-            <p>You'd never use Create-React-App to lay the foundation of a professional full-stack DApp.</p>
-            <p>That's because Create-React-App gives you a very poor organizational structure and setup.  Most teams end up ejecting their React setup when they create their apps using Create-React-App anyway.
-            </p>
-            <p>So why not just start your DApp the right way?</p>
-            <p>React DApp boilerplate gives you an expert foundation to build any kind of full-stack DApps.  It's created by professionals in the industry and it has everything you need.</p>
-            <p>And you don't have to be an expert yourself to be able to use it.</p>
+            <p>React DApp Boilerplate is a Truffle Box that helps you develop user-facing DApps connected to Smart Contracts written in Solidity.</p>
+            <p>The boilerplate gives you an expert foundation to build any kind of full-stack user-facing DApp.  It's created by professionals in the industry and it has everything you and your team will need.</p>
+            <p>We're at the dawn of mainstream blockchain adoption, and now is your chance to build the next disruptive applications of the future.</p>
+            <p>Hopefully, we will all work together to guide this technology in a positive way that benefits all...</p>
           </div>
           <div id="features" className="section">
             <h2>Features</h2>
@@ -120,6 +117,7 @@ export default class Home extends Component {
           <div id="youtube-video" className="section">
             <h2>Watch The Training Video</h2>
             <p>Get a personal walkthrough on how React DApp Boilerplate is set up.</p>
+            <br />
             <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s"><img src={youtubeVideoSnapshot} alt="training video" /></a>
             <br />
             <br />
