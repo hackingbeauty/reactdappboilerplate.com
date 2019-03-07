@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import proofOfExImg         from 'assets/images/proof-of-ex-iphone-encased.png';
 import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover.png';
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
+import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
 import { styles }           from './styles.scss';
 
 export default class Home extends Component {
@@ -115,6 +116,11 @@ export default class Home extends Component {
                 <p>This set up comes with everything you'll need for you or an entire team.</p>
               </li>
             </ul>
+          </div>
+          <div id="youtube-video" className="section">
+            <h2>Watch The Training Video</h2>
+            <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s"><img src={youtubeVideoSnapshot} alt="training video" /></a>
+            <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s">Watch the training video on Youtube now.</a>
           </div>
           <div id="contribute" className="section">
             <h2>Want To Contribute?</h2>
