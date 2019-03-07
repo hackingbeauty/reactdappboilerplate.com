@@ -55,7 +55,7 @@ export default class Home extends Component {
             <p>That's because Create-React-App gives you a very poor organizational structure and setup.  Most teams end up ejecting their React setup when they create their apps using Create-React-App anyway.
             </p>
             <p>So why not just start your DApp the right way?</p>
-            <p>React DApp boilerplate gives you an expert foundation to build any kind of full-stack DApp.  It's created by professionals in the industry and it has everything you need.</p>
+            <p>React DApp boilerplate gives you an expert foundation to build any kind of full-stack DApps.  It's created by professionals in the industry and it has everything you need.</p>
             <p>And you don't have to be an expert yourself to be able to use it.</p>
           </div>
           <div id="features" className="section">
