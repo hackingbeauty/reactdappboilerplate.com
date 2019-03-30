@@ -32,11 +32,11 @@ export default class Home extends Component {
               </li>
               <li>
                 <span className="label">Second, install all dependencies.</span>
-                <span className="command">$ npm run install</span>
+                <span className="command">$ npm install</span>
               </li>
               <li>
                 <span className="label">Third, start your local development server.</span>
-                <span className="command">$ npm run start</span>
+                <span className="command">$ npm start</span>
               </li>
               <li>
                 <span className="label">Fourth, create a production build.</span>
