@@ -4,6 +4,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin'
 import CopyWebpackPlugin from'copy-webpack-plugin'
 
 module.exports = {
+  mode: 'production',
   entry: [],
 
   output: {
@@ -30,11 +31,6 @@ module.exports = {
       __DEVELOPMENT__: false
     }),
     new ExtractTextPlugin({filename:'bundle.css'}),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    }),
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     }),

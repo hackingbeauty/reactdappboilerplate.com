@@ -4,13 +4,18 @@ import precss             from  'precss'
 import autoprefixer       from 'autoprefixer'
 
 module.exports = {
+  mode: 'development',
   devtool: 'source-map',
-  entry: [
-    'webpack-hot-middleware/client',
-    './src/index'
-  ],
   output: {
     publicPath: ''
+  },
+
+  devServer: {
+    stats: 'errors-only', // Display only errors to reduce the amount of output.
+    host: process.env.HOST, // Defaults to `localhost`
+    port: '3000', // Defaults to 8080
+    open: true, // Open the page in browser
+    historyApiFallback: true
   },
 
   module: {
