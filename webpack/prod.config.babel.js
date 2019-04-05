@@ -1,7 +1,9 @@
-import webpack           from 'webpack'
-import ExtractTextPlugin from 'extract-text-webpack-plugin'
-import HtmlWebpackPlugin from 'html-webpack-plugin'
-import CopyWebpackPlugin from'copy-webpack-plugin'
+import webpack              from 'webpack'
+import path                 from 'path'
+import MiniCssExtractPlugin from 'mini-css-extract-plugin'
+import ExtractTextPlugin    from 'extract-text-webpack-plugin'
+import HtmlWebpackPlugin    from 'html-webpack-plugin'
+import CopyWebpackPlugin    from'copy-webpack-plugin'
 
 module.exports = {
   mode: 'production',
@@ -15,10 +17,25 @@ module.exports = {
     rules: [
       {
         test: /\.scss$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: ['css-loader','postcss-loader','sass-loader']
-        })
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader'
+          },
+          {
+            loader: 'resolve-url-loader'
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true,
+              data: '@import "config-module-imports";',
+              includePaths: [
+                path.join(__dirname, '../..', '/src/_styles')
+              ]
+            }
+          }
+        ]
       }
     ]
   },

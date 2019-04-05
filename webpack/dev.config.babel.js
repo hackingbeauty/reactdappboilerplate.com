@@ -30,17 +30,7 @@ module.exports = {
             localIdentName: '[hash:base64:5][path]-[local]'
           }
         },
-        {
-          loader: 'postcss-loader',
-          options: {
-            plugins: function () {
-              return [
-                precss,
-                autoprefixer
-              ];
-            }
-          }
-        },
+        { loader: 'resolve-url-loader' },
         { loader: 'sass-loader' }
       ]
     }]
