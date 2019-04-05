@@ -1,15 +1,12 @@
-const path = require('path');
-const webpack = require('webpack');
-const merge = require('webpack-merge');
-const autoprefixer = require('autoprefixer');
-
-const development = require('./dev.config.js');
-const production = require('./prod.config.js');
-
-require('babel-polyfill');
+import '@babel/polyfill'
+import webpack            from 'webpack'
+import path               from 'path'
+import merge              from 'webpack-merge'
+import autoprefixer       from 'autoprefixer'
+import development        from './dev.config.babel'
+import production         from './prod.config.babel'
 
 const TARGET = process.env.npm_lifecycle_event;
-
 const PATHS = {
   app: path.join(__dirname, '../src'),
   build: path.join(__dirname, '../dist'),

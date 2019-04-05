@@ -1,17 +1,16 @@
-const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const precss = require('precss');
-const autoprefixer = require('autoprefixer');
+import webpack            from 'webpack'
+import HtmlWebpackPlugin  from 'html-webpack-plugin'
+import precss             from  'precss'
+import autoprefixer       from 'autoprefixer'
 
 module.exports = {
   devtool: 'source-map',
   entry: [
     'webpack-hot-middleware/client',
-    './src/index',
+    './src/index'
   ],
   output: {
-    publicPath: '',
+    publicPath: ''
   },
 
   module: {
@@ -23,7 +22,7 @@ module.exports = {
         {
           loader: 'css-loader',
           options: {
-            localIdentName: '[hash:base64:5][path]-[local]',
+            localIdentName: '[hash:base64:5][path]-[local]'
           }
         },
         {
@@ -45,14 +44,14 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
-        NODE_ENV: '"development"',
+        NODE_ENV: '"development"'
       },
-      __DEVELOPMENT__: true,
+      __DEVELOPMENT__: true
     }),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
+      template: 'src/index.html'
     })
   ]
 };

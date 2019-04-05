@@ -1,13 +1,13 @@
-const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+import webpack           from 'webpack'
+import ExtractTextPlugin from 'extract-text-webpack-plugin'
+import HtmlWebpackPlugin from 'html-webpack-plugin'
+import CopyWebpackPlugin from'copy-webpack-plugin'
 
 module.exports = {
   entry: [],
 
   output: {
-    publicPath: '',
+    publicPath: ''
   },
 
   module: {
@@ -19,24 +19,24 @@ module.exports = {
           use: ['css-loader','postcss-loader','sass-loader']
         })
       }
-    ],
+    ]
   },
 
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
-        NODE_ENV: '"production"',
+        NODE_ENV: '"production"'
       },
-      __DEVELOPMENT__: false,
+      __DEVELOPMENT__: false
     }),
     new ExtractTextPlugin({filename:'bundle.css'}),
     new webpack.optimize.UglifyJsPlugin({
       compress: {
-        warnings: false,
-      },
+        warnings: false
+      }
     }),
     new HtmlWebpackPlugin({
-      template: 'src/index.html',
+      template: 'src/index.html'
     }),
     new HtmlWebpackPlugin({
       filename: 'manifest.json',
