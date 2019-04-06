@@ -18,7 +18,6 @@ module.exports = {
   },
 
   module: {
-    noParse: [new RegExp('node_modules/localforage/dist/localforage.js')],
     rules: [{
       test: /\.scss$/,
       use: [
