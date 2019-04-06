@@ -1,7 +1,6 @@
 import webpack            from 'webpack'
+import path               from 'path'
 import HtmlWebpackPlugin  from 'html-webpack-plugin'
-import precss             from  'precss'
-import autoprefixer       from 'autoprefixer'
 
 module.exports = {
   mode: 'development',
@@ -31,7 +30,16 @@ module.exports = {
           }
         },
         { loader: 'resolve-url-loader' },
-        { loader: 'sass-loader' }
+        {
+          loader: 'sass-loader',
+          options: {
+            sourceMap: true,
+            data: '@import "config-styles.scss";',
+            includePaths: [
+              path.join(__dirname, '../..', '/src/configs/theme')
+            ]
+          }
+        }
       ]
     }]
   },

@@ -29,9 +29,9 @@ module.exports = {
             loader: 'sass-loader',
             options: {
               sourceMap: true,
-              data: '@import "config-module-imports";',
+              data: '@import "config-styles.scss";',
               includePaths: [
-                path.join(__dirname, '../..', '/src/_styles')
+                path.join(__dirname, '../..', '/src/configs/theme')
               ]
             }
           }
@@ -56,12 +56,6 @@ module.exports = {
       template: 'src/manifest.json',
       inject: false
     }),
-    new CopyWebpackPlugin([
-      {
-        from: 'src/assets',
-        to  : 'assets'
-      }
-    ]),
     new CopyWebpackPlugin([
       {
         from: 'src/assets',
