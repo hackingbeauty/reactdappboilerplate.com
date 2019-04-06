@@ -36,7 +36,7 @@ module.exports = {
             sourceMap: true,
             data: '@import "config-styles.scss";',
             includePaths: [
-              path.join(__dirname, '../..', '/src/configs/theme')
+              path.join(__dirname, '..', '/src/configs/theme')
             ]
           }
         }
