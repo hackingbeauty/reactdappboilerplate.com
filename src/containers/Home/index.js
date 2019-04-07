@@ -44,11 +44,14 @@ export default class Home extends Component {
               </li>
             </ul>
           </div>
-
+          <br />
+          <br />
           <div id="what-you-should-see" className="section">
             <h2>This is what you should see when you first boot up...</h2>
-            <img src={boilerplateImg} alt="First view when React DApp boilerplate boots up" />
+            <img className="box-shadow" src={boilerplateImg} alt="First view when React DApp boilerplate boots up" />
           </div>
+          <br />
+          <br />
           <div id="summary" className="section">
             <h2>Summary</h2>
             <p>React DApp Boilerplate is a Truffle Box that helps you develop user-facing DApps connected to Smart Contracts written in Solidity.</p>
@@ -56,6 +59,8 @@ export default class Home extends Component {
             <p>We're at the dawn of mainstream blockchain adoption, and now is your chance to build the next disruptive applications of the future.</p>
             <p>Hopefully, we will all work together to guide this technology in a positive way that benefits all...</p>
           </div>
+          <br />
+          <br />
           <div id="features" className="section">
             <h2>Features</h2>
             <ul>
@@ -114,32 +119,44 @@ export default class Home extends Component {
               </li>
             </ul>
           </div>
+          <br />
+          <br />
           <div id="youtube-video" className="section">
             <h2>Watch The Training Video</h2>
             <p>Get a personal walkthrough on how React DApp Boilerplate is set up.</p>
             <br />
-            <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s"><img src={youtubeVideoSnapshot} alt="training video" /></a>
+            <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s">
+              <img className="box-shadow" src={youtubeVideoSnapshot} alt="training video" />
+            </a>
             <br />
             <br />
             <br />
             <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s">Watch the training video on Youtube now.</a>
           </div>
+          <br />
+          <br />
           <div id="contribute" className="section">
             <h2>Want To Contribute?</h2>
             <p>React DApp Boilerplate is an evolving project and we need your help!  Our mission is to encapsulate the best
             technologies the Web has to offer in a single foundational boilerplate so that you can easily build your DApp.</p>
             <p>If you have any ideas or suggestions, please contribute.</p>
           </div>
-          <div id="contribute" className="section">
+          <br />
+          <br />
+          <div className="section">
             <h2>License</h2>
             <p>The code is available under the <a href="https://github.com/hackingbeauty/react-dapp-boilerplate/blob/master/LICENSE.md">MIT license</a>.
             That means you can use the code for any project you could possibliy think of (commercial or non-commercial).</p>
           </div>
+          <br />
+          <br />
           <div className="section">
             <h2>Join The Slack Community</h2>
             <p>Join the <a href="https://publicslack.com/slacks/full-stack-dapps/invites/new" target="_blank">Slack community</a> to get help and ask questions.
             </p>
           </div>
+          <br />
+          <br />
           <div id="learn" className="section">
             <h2>Training Program</h2>
             <p>For those ready to accelerate their learning of DApp development fast, register for <a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps</a>.</p>
@@ -151,7 +168,9 @@ export default class Home extends Component {
             <br />
             <a href="https://fullstackdapps.com"><img src={proofOfExImg} alt="Full Stack dapps main page image" /></a>
           </div>
-          <div id="contribute" className="section">
+          <br />
+          <br />
+          <div className="section">
             <h2>Consulting</h2>
             <p>Please email Mark Muskardin at <strong>support@fullstackdapps.com</strong> if your company is looking for expertise in building blockchain applications and dApps.
             </p>
