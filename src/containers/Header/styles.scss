@@ -11,6 +11,16 @@
     }
   }
 
+  .app-bar {
+    h1 {
+      color: $white;
+      font-family: "Open Sans", sans-serif;
+      text-shadow: 2px 2px 0 #000;
+      font-weight: bold !important;
+
+    }
+  }
+
   #header-btn1,
   #header-btn2 {
     position: absolute;

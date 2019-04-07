@@ -28,9 +28,7 @@ class Header extends Component {
         <header>
           <AppBar>
             <Toolbar>
-              <Typography variant="title" color="inherit">
-                {appConfig.name}
-              </Typography>
+              <h1>{appConfig.name}</h1>
               <div id="header-btn1">
                 <Button variant="text">
                   <a href="https://github.com/hackingbeauty/react-dapp-boilerplate">SOURCE CODE</a>
