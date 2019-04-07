@@ -29,7 +29,7 @@ module.exports = {
             loader: 'sass-loader',
             options: {
               sourceMap: true,
-              data: '@import "config-styles.scss";',
+              data: '@import "config-styles";',
               includePaths: [
                 path.join(__dirname, '..', '/src/configs/theme')
               ]

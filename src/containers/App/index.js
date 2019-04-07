@@ -1,8 +1,7 @@
 import React, { Component }  from 'react';
 import { connect }           from 'react-redux';
-import injectTapEventPlugin  from 'react-tap-event-plugin';
-import getMuiTheme           from 'material-ui/styles/getMuiTheme';
-import MuiThemeProvider      from 'material-ui/styles/MuiThemeProvider';
+import MuiThemeProvider      from '@material-ui/core/styles/MuiThemeProvider';
+import theme                 from 'configs/theme/config-theme'
 
 // global styles for entire app
 import './styles/app.scss';
@@ -13,7 +12,6 @@ import LeftNavBar from 'containers/LeftNavBar';
 import Home       from 'containers/Home';
 import Footer     from 'containers/Footer';
 
-injectTapEventPlugin();
 
 export class App extends Component {
   constructor(props) {
@@ -22,7 +20,7 @@ export class App extends Component {
 
   render() {
     return (
-      <MuiThemeProvider muiTheme={getMuiTheme()}>
+      <MuiThemeProvider theme={theme}>
         <div>
           <Header />
           <Home />

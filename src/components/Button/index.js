@@ -1,114 +1,40 @@
-/**
- * Button - A common button
- */
+import React                   from 'react'
+import { Button as MuiButton } from '@material-ui/core'
+import PropTypes               from 'prop-types'
+import { styles }              from './styles.scss'
 
-import React                    from 'react';
-import { FlatButton,
-         RaisedButton,
-         FloatingActionButton,
-         IconButton }           from 'material-ui';
-import PropTypes                from 'prop-types';
+const Button = (props) => {
+  const {
+    children,
+    ...other
+  } = props
 
-/* component styles */
-import { styles } from './styles.scss';
-
-export default function Button(props) {
-  const buttonElem = createButton(props);
   return (
     <div className={styles}>
-      {buttonElem}
+      <MuiButton
+        {...other}
+      >
+        {children}
+      </MuiButton>
     </div>
-  );
-}
-
-function createButton(props) {
-  const {
-    label,
-    className,
-    onTouchTap,
-    icon,
-    disabled,
-    primary,
-    secondary } = props;
-
-  let buttonElem;
-
-  if(props.floating) {
-    buttonElem = <FloatingActionButton
-                  label={label}
-                  onTouchTap={onTouchTap}
-                  className={className}
-                  icon={icon}
-                  disabled={disabled}
-                  secondary={true}>
-                  {props.icon}
-                 </FloatingActionButton>
-
-  } else if(props.floating && props.secondary) {
-    buttonElem = <FloatingActionButton
-                  label={label}
-                  onTouchTap={onTouchTap}
-                  className={className}
-                  icon={icon}
-                  disabled={disabled}
-                  secondary={true} />
-
-  } else if(props.iconOnly){
-    buttonElem= <IconButton
-                  label={label}
-                  onTouchTap={onTouchTap}
-                  className={className}
-                  disabled={disabled}
-                  icon={icon}>{props.icon}</IconButton>;
-
-  } else if(props.raised && props.secondary) {
-    buttonElem = <RaisedButton
-                  label={label}
-                  onTouchTap={onTouchTap}
-                  className={className}
-                  icon={icon}
-                  disabled={disabled}
-                  secondary={true} />
-
-  } else if(props.raised) {
-    buttonElem = <RaisedButton
-                  label={label}
-                  className={className}
-                  onTouchTap={onTouchTap}
-                  primary={primary}
-                  secondary={secondary}
-                  disabled={disabled} />
-  } else if(props.flat) {
-    buttonElem = <FlatButton
-                  onTouchTap={onTouchTap}
-                  className={className}
-                  icon={icon}
-                  label={label}
-                  disabled={disabled} />
-  } else {
-    buttonElem = <FlatButton
-                  onTouchTap={onTouchTap}
-                  className={className}
-                  icon={icon}
-                  label={label}
-                  disabled={disabled} />
-  }
-
-  return buttonElem;
+  )
 }
 
 Button.propTypes = {
-  raised   : PropTypes.bool,
-  floating : PropTypes.bool,
-  disabled : PropTypes.bool
-};
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+  color: PropTypes.string,
+  disabled: PropTypes.bool,
+  onClick: PropTypes.func,
+  variant: PropTypes.string
+}
 
 Button.defaultProps = {
-  type      : 'button',
-  raised    : false,
-  label     : '',
-  className : 'btn',
-  disabled : false,
-  primary : true,
-  secondary: false
+  className: 'btn',
+  color: 'default',
+  disabled: false,
+  onClick: null,
+  variant: 'contained'
 }
+
+export default Button

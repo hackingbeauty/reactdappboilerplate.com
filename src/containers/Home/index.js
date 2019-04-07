@@ -84,7 +84,7 @@ export default class Home extends Component {
                 <h3><a href="https://web3js.readthedocs.io">Web3.js Configuration</a></h3>
                 <p>Web3.js needs to be configured correctly, otherwise you can't make Smart Contract calls from the UI.</p>
               </li>
-                       <li>
+              <li>
                 <h3><a href="https://reacttraining.com/react-router/">React Router 4</a></h3>
                 <p>A declarative routing library for React apps.  Design with the URL in mind.</p>
               </li>

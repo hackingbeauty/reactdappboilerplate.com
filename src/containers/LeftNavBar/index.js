@@ -3,7 +3,7 @@ import { connect }            from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { Drawer,
          AppBar,
-         Divider }            from 'material-ui';
+         Divider }            from '@material-ui/core';
 
 /* component styles */
 import { styles } from './styles.scss';
