@@ -46,15 +46,16 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     }),
-    new HtmlWebpackPlugin({
-      filename: 'manifest.json',
-      template: 'src/manifest.json',
-      inject: false
-    }),
     new CopyWebpackPlugin([
       {
         from: 'src/assets',
         to: 'assets'
+      }
+    ]),
+    new CopyWebpackPlugin([
+      {
+        from: 'src/manifest.json',
+        to: 'manifest.json'
       }
     ])
   ]
