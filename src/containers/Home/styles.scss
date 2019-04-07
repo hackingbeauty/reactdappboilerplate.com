@@ -172,4 +172,11 @@
     }
   }
 
+  @media (max-width: 650px) {
+    #banner {
+      h1 {
+        font-size: 1.6em;
+      }
+    }
+  }
 }
