@@ -2,7 +2,6 @@ import React, { Component }   from 'react'
 import { connect }            from 'react-redux'
 import { bindActionCreators } from 'redux'
 import AppBar                 from 'components/AppBar'
-import Typography             from '@material-ui/core/Typography';
 import Toolbar                from '@material-ui/core/Toolbar';
 import Button                 from 'components/Button'
 import { appConfig }          from 'configs/config-main'

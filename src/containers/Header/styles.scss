@@ -36,4 +36,17 @@
   #header-btn2 {
     right: 50px;
   }
+
+  @media (max-width: 650px) {
+    h1 {
+      font-size: 15px;
+      margin-right: 20px;
+    }
+
+    #header-btn1,
+    #header-btn2 {
+      position: static;
+    }
+
+  }
 }
