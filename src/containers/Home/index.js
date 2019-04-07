@@ -3,7 +3,7 @@ import proofOfExImg         from 'assets/images/proof-of-ex-iphone-encased.png';
 import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover.png';
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
-import { styles }           from './styles.scss';
+import { styles }           from './styles.scss'
 
 export default class Home extends Component {
   constructor(props) {
@@ -16,7 +16,7 @@ export default class Home extends Component {
         <div id="banner">
           <div className="container">
             <h1>An expert foundational UI boilerplate for developing Ethereum DApps using Truffle, React, Redux, and Webpack</h1>
-            <img src={boxCover} width="500px"  alt="React DApp boilerplate box cover" />
+            <img src={boxCover} width="500px" alt="React DApp boilerplate box cover" />
             <h2 className="description">React DApp Boilerplate gives you an expert front-end architecture for building decentralized applications that use the best libraries the Web has to offer.</h2>
             <br />
             <h2>Hook it up to any Smart Contract on Ethereum!</h2>
