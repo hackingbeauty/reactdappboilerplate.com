@@ -1,6 +1,6 @@
 {
-  "short_name": "YOUR APP",
-  "name": "A DESCRIPTION OF YOUR APP",
+  "short_name": "YourDAppName",
+  "name": "A description of your dApp",
   "start_url": "./?utm_source=web_app_manifest",
   "icons": [
     {
@@ -15,7 +15,7 @@
     }
   ],
   "background_color": "#00BCD4",
-  "theme_color": "#00BCD4", //this is the splash screen background color
+  "theme_color": "#00BCD4",
   "display": "standalone",
   "orientation": "portrait"
 }
