@@ -162,7 +162,7 @@ export default class Home extends Component {
             <p>For those ready to accelerate their learning of DApp development fast, register for <a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps</a>.</p>
             <p><a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps</a> is a step-by-step training program that teaches you how to develop and design a real DApp using Truffle, React, Redux, and a Smart Contract written in Solidity.
             </p>
-            <p>In the program, you'll create a decentralized digital asset marketplace while hooking up an expert UI to an ERC721 Non-fungible token Smart Contract on Etherem.</p>
+            <p>In the program, you'll create a decentralized digital asset marketplace while hooking up an expert UI to an ERC721 Non-fungible token Smart Contract on Ethereum.</p>
             <p>By the end of the training program, you'll be a full-stack DApp developer and one of the world's first blockchain developers.</p>
             <br />
             <br />
@@ -172,7 +172,7 @@ export default class Home extends Component {
           <br />
           <div className="section">
             <h2>Consulting</h2>
-            <p>Please email Mark Muskardin at <strong>support@fullstackdapps.com</strong> if your company is looking for expertise in building blockchain applications and dApps.
+            <p>Please email Mark Muskardin at <strong>support@fullstackdapps.com</strong> if your company is looking for expertise in building blockchain applications on Ethereum.
             </p>
           </div>
         </div>
