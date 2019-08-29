@@ -56,12 +56,12 @@ export default class Home extends Component {
           <div id="drizzle-integration" className="section">
             <h2>Do you need Drizzle?</h2>
             <p>You can install React DApp Boilerplate with two options: with Drizzle or without.  Drizzle is a front-end library that helps
-            you synchronize the state of your Smart Contract and transaction data with your UI.  It can help you write your dApp front-end easier and more predictable.
+            you synchronize the state of your Smart Contract and transaction data with your UI.  It can help you write your dApp front-end more easily and more predictably.
             </p>
             <p>However, the current version of Drizzle has flaws and we anxiously await the relase of Drizzle 2.0.</p>
-            <p>In the meantime, you can install a version of React DApp Boilerplate with Drizzle integrated with the following version of React DApp boilerplate:</p>
+            <p>In the meantime, you can install a version of React DApp Boilerplate with Drizzle integrated.</p>
+            <p>If you need expert guidance on how to integrate Drizzle into your dApp, and if you want to master it quickly, then check out the <a href="https://fullstackdapps.com">Full Stack DApps training program</a> and get production ready in less than 1 week.  Save a ton of time, and your sanity, by joining the exclusive training program for dApp developers.</p>
             <br />
-            <p>If you need expert guidance on how to integrate Drizzle into your dApp, then check out the <a href="https://fullstackdapps.com">Full Stack DApps training program</a> and get production ready in less than 1 week.  Save a ton of time, and your sanity, by joining the exclusive training program for dApp developers.</p>
             <br />
             <br />
             <div className="section installation">
