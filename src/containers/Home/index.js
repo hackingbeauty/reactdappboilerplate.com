@@ -3,6 +3,7 @@ import proofOfExImg         from 'assets/images/proof-of-ex-iphone-encased.png';
 import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover.png';
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
+import drizzleImg           from 'assets/images/drizzle.png';
 import { styles }           from './styles.scss'
 
 export default class Home extends Component {
@@ -23,7 +24,7 @@ export default class Home extends Component {
           </div>
         </div>
         <div className="container">
-          <div id="getting-started" className="section">
+          <div className="section installation">
             <h2>Installation</h2>
             <ul>
               <li>
@@ -52,6 +53,27 @@ export default class Home extends Component {
           </div>
           <br />
           <br />
+          <div id="drizzle-integration" className="section">
+            <h2>Do you need Drizzle?</h2>
+            <p>You can install React DApp Boilerplate with two options: with Drizzle or without.  Drizzle is a front-end library that helps
+            you synchronize the state of your Smart Contract and transaction data with your UI.  It can help you write your dApp front-end easier and more predictable.
+            </p>
+            <p>However, the current version of Drizzle has flaws and we anxiously await the relase of Drizzle 2.0.</p>
+            <p>In the meantime, you can install a version of React DApp Boilerplate with Drizzle integrated with the following version of React DApp boilerplate:</p>
+            <br />
+            <p>If you need expert guidance on how to integrate Drizzle into your dApp, then check out the <a href="https://fullstackdapps.com">Full Stack DApps training program</a> and get production ready in less than 1 week.  Save a ton of time, and your sanity, by joining the exclusive training program for dApp developers.</p>
+            <br />
+            <br />
+            <div className="section installation">
+              <h2>Install React DApp Boilerplate With Drizzle Integration</h2>
+              <ul>
+                <li>
+                  <span className="command">$ git clone https://github.com/hackingbeauty/react-dapp-boilerplate-with-drizzle.git</span>
+                </li>
+              </ul>
+            </div>
+            <img src={drizzleImg} alt="" />
+          </div>
           <div id="summary" className="section">
             <h2>Summary</h2>
             <p>React DApp Boilerplate is a Truffle Box that helps you develop user-facing DApps connected to Smart Contracts written in Solidity.</p>
