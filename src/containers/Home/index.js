@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import proofOfExImg         from 'assets/images/proof-of-ex-iphone-encased.png';
+import React, { Component }  from 'react';
+import privateMembersAreaImg from 'assets/images/private-members-area.png';
 import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover.png';
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
@@ -174,7 +174,7 @@ export default class Home extends Component {
           <br />
           <div className="section">
             <h2>Join The Slack Community</h2>
-            <p>Join the <a href="https://publicslack.com/slacks/full-stack-dapps/invites/new" target="_blank">Slack community</a> to get help and ask questions.
+            <p>Send an email to Mark and request access to the <a href="mailto:support@fullstackdapps.com" target="_blank">Slack community</a> to get help and ask questions.
             </p>
           </div>
           <br />
@@ -182,13 +182,12 @@ export default class Home extends Component {
           <div id="learn" className="section">
             <h2>Training Program</h2>
             <p>For those ready to accelerate their learning of DApp development fast, register for <a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps</a>.</p>
-            <p><a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps</a> is a step-by-step training program that teaches you how to develop and design a real DApp using Truffle, React, Redux, and a Smart Contract written in Solidity.
+            <p><a href="https://ethereum.fullstackdapps.com/how-to-connect-react-front-end-to-smart-contract" target="_blank">Full Stack DApps</a> is a step-by-step training program that teaches you how to develop and design a real DApp using Truffle, React, Redux, and a Smart Contract written in Solidity.
             </p>
-            <p>In the program, you'll create a decentralized digital asset marketplace while hooking up an expert UI to an ERC721 Non-fungible token Smart Contract on Ethereum.</p>
-            <p>By the end of the training program, you'll be a full-stack DApp developer and one of the world's first blockchain developers.</p>
+            <p>Register to get instant access to the private member's area, and complete the free "How To Connect A Front-End To A Smart Contract" mini course.</p>
             <br />
             <br />
-            <a href="https://fullstackdapps.com"><img src={proofOfExImg} alt="Full Stack dapps main page image" /></a>
+            <a href="https://ethereum.fullstackdapps.com/how-to-connect-react-front-end-to-smart-contract"><img src={privateMembersAreaImg} alt="Full Stack dapps main page image" /></a>
           </div>
           <br />
           <br />
