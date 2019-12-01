@@ -16,9 +16,9 @@ export default class Home extends Component {
       <div className={styles}>
         <div id="banner">
           <div className="container">
-            <h1>An expert foundational UI boilerplate for developing Ethereum Dapps using Truffle, React, Redux, and Webpack</h1>
-            <img src={boxCover} width="500px" alt="React Dapp boilerplate box cover" />
-            <h2 className="description">React Dapp Boilerplate gives you an expert front-end architecture for building decentralized applications that use the best libraries the Web has to offer.</h2>
+            <h1>An expert foundational UI boilerplate for developing Ethereum dApps using Truffle, React, Redux, and Webpack</h1>
+            <img src={boxCover} width="500px" alt="React DApp boilerplate box cover" />
+            <h2 className="description">React DApp Boilerplate gives you an expert front-end architecture for building decentralized applications that use the best libraries the Web has to offer.</h2>
             <br />
             <h2>Hook it up to any Smart Contract on Ethereum!</h2>
           </div>
@@ -49,18 +49,18 @@ export default class Home extends Component {
           <br />
           <div id="what-you-should-see" className="section">
             <h2>This is what you should see when you first boot up...</h2>
-            <img className="box-shadow" src={boilerplateImg} alt="First view when React Dapp boilerplate boots up" />
+            <img className="box-shadow" src={boilerplateImg} alt="First view when React DApp boilerplate boots up" />
           </div>
           <br />
           <br />
           <div id="drizzle-integration" className="section">
             <h2>Do you need Drizzle?</h2>
-            <p>You can install React Dapp Boilerplate with two options: with Drizzle or without.  Drizzle is a front-end library that helps
-            you synchronize the state of your Smart Contract and transaction data with your UI.  It can help you write your dapp front-end more easily and more predictably.
+            <p>You can install React DApp Boilerplate with two options: with Drizzle or without.  Drizzle is a front-end library that helps
+            you synchronize the state of your Smart Contract and transaction data with your UI.  It can help you write your dApp front-end more easily and more predictably.
             </p>
             <p>However, the current version of Drizzle has flaws and we anxiously await the relase of Drizzle 2.0.</p>
-            <p>In the meantime, you can install a version of React Dapp Boilerplate with Drizzle integrated.</p>
-            <p>If you need expert guidance on how to integrate Drizzle into your dapp, and if you want to master it quickly, then check out the <a href="https://fullstackdapps.com">Full Stack Dapps training program</a> and get production ready in less than 1 week.  Save a ton of time, and your sanity, by joining the exclusive training program for dapp developers.</p>
+            <p>In the meantime, you can install a version of React DApp Boilerplate with Drizzle integrated.</p>
+            <p>If you need expert guidance on how to integrate Drizzle into your dApp, and if you want to master it quickly, then check out the <a href="https://fullstackdapps.com">Full Stack DApps training program</a> and get production ready in less than 1 week.  Save a ton of time, and your sanity, by joining the exclusive training program for dApp developers.</p>
             <br />
             <br />
             <br />
@@ -76,8 +76,8 @@ export default class Home extends Component {
           </div>
           <div id="summary" className="section">
             <h2>Summary</h2>
-            <p>React Dapp Boilerplate is a Truffle Box that helps you develop user-facing Dapps connected to Smart Contracts written in Solidity.</p>
-            <p>The boilerplate gives you an expert foundation to build any kind of full-stack user-facing Dapp.  It's created by professionals in the industry and it has everything you and your team will need.</p>
+            <p>React Dapp Boilerplate is a Truffle Box that helps you develop user-facing DApps connected to Smart Contracts written in Solidity.</p>
+            <p>The boilerplate gives you an expert foundation to build any kind of full-stack user-facing DApp.  It's created by professionals in the industry and it has everything you and your team will need.</p>
             <p>We're at the dawn of mainstream blockchain adoption, and now is your chance to build the next disruptive applications of the future.</p>
             <p>Hopefully, we will all work together to guide this technology in a positive way that benefits all...</p>
           </div>
@@ -97,11 +97,11 @@ export default class Home extends Component {
               </li>
               <li>
                 <h3><a href="http://redux.js.org/">Redux</a></h3>
-                <p>The gold standard of managing application state, and the data that flows through your Dapp.</p>
+                <p>The gold standard of managing application state, and the data that flows through your DApp.</p>
               </li>
               <li>
                 <h3><a href="https://github.com/css-modules/css-modules">MetaMask Detection Logic</a></h3>
-                <p>The first thing your Dapp needs to do is detect MetaMask, and set it up as your Dapp's provider.</p>
+                <p>The first thing your dApp needs to do is detect MetaMask, and set it up as your dApp's provider.</p>
               </li>
               <li>
                 <h3><a href="http://www.material-ui.com/">Material-UI</a></h3>
@@ -145,7 +145,7 @@ export default class Home extends Component {
           <br />
           <div id="youtube-video" className="section">
             <h2>Watch The Training Video</h2>
-            <p>Get a personal walkthrough on how React Dapp Boilerplate is set up.</p>
+            <p>Get a personal walkthrough on how React DApp Boilerplate is set up.</p>
             <br />
             <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s">
               <img className="box-shadow" src={youtubeVideoSnapshot} alt="training video" />
@@ -159,8 +159,8 @@ export default class Home extends Component {
           <br />
           <div id="contribute" className="section">
             <h2>Want To Contribute?</h2>
-            <p>React Dapp Boilerplate is an evolving project and we need your help!  Our mission is to encapsulate the best
-            technologies the Web has to offer in a single foundational boilerplate so that you can easily build your Dapp.</p>
+            <p>React DApp Boilerplate is an evolving project and we need your help!  Our mission is to encapsulate the best
+            technologies the Web has to offer in a single foundational boilerplate so that you can easily build your dApp.</p>
             <p>If you have any ideas or suggestions, please contribute.</p>
           </div>
           <br />
@@ -181,13 +181,13 @@ export default class Home extends Component {
           <br />
           <div id="learn" className="section">
             <h2>Training Program</h2>
-            <p>For those ready to accelerate their learning of Dapp development fast, register for <a href="https://fullstackdapps.com/" target="_blank">Full Stack Dapps</a>.</p>
-            <p><a href="https://ethereum.fullstackdapps.com/how-to-connect-react-front-end-to-smart-contract" target="_blank">Full Stack Dapps</a> is a step-by-step training program that teaches you how to develop and design a real Dapp using Truffle, React, Redux, and a Smart Contract written in Solidity.
+            <p>For those ready to accelerate their learning of dApp development fast, register for <a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps</a>.</p>
+            <p><a href="https://ethereum.fullstackdapps.com/how-to-connect-react-front-end-to-smart-contract" target="_blank">Full Stack DApps</a> is a step-by-step training program that teaches you how to develop and design a real dApp using Truffle, React, Redux, and a Smart Contract written in Solidity.
             </p>
             <p>Register to get instant access to the private member's area, and complete the free "How To Connect A Front-End To A Smart Contract" mini course.</p>
             <br />
             <br />
-            <a href="https://ethereum.fullstackdapps.com/how-to-connect-react-front-end-to-smart-contract"><img src={privateMembersAreaImg} alt="Full Stack dapps main page image" /></a>
+            <a href="https://ethereum.fullstackdapps.com/how-to-connect-react-front-end-to-smart-contract"><img src={privateMembersAreaImg} alt="Full Stack dApps main page image" /></a>
           </div>
           <br />
           <br />
