@@ -181,13 +181,17 @@ export default class Home extends Component {
           <br />
           <div id="learn" className="section">
             <h2>Training Program</h2>
-            <p>For those ready to accelerate their learning of dApp development fast, register for <a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps</a>.</p>
-            <p><a href="https://ethereum.fullstackdapps.com/how-to-connect-react-front-end-to-smart-contract" target="_blank">Full Stack DApps</a> is a step-by-step training program that teaches you how to develop and design a real dApp using Truffle, React, Redux, and a Smart Contract written in Solidity.
+            <p>For those ready to accelerate their mastery of dApp development, register for the <a href="https://fullstackdapps.com/" target="_blank">Full Stack DApps Training Program</a>.</p>
+            <p><a href="https://fullstackdapps.com/amazing-value-offer" target="_blank">Full Stack DApps</a> is a step-by-step training program that teaches you how to develop and design a real dApp using Truffle, React, Redux, and  Smart Contracts for Ethereum.
             </p>
-            <p>Register to get instant access to the private member's area, and complete the free "How To Connect A Front-End To A Smart Contract" mini course.</p>
+            <p>
+              It's the best and only training program that quickly and easily helps you master front-end engineering skills.  Once you do, you'll be able to turn any Smart Contract into a dApp.
+            </p>
+            <p>Everything we build is fully responsive, runs on any device (mobile + desktop), or the latest dApp browser.</p>
+            <p>Register to get instant access to the private member's area, .</p>
             <br />
             <br />
-            <a href="https://ethereum.fullstackdapps.com/how-to-connect-react-front-end-to-smart-contract"><img src={privateMembersAreaImg} alt="Full Stack dApps main page image" /></a>
+            <a href="https://fullstackdapps.com/amazing-value-offer"><img src={privateMembersAreaImg} alt="Full Stack dApps main page image" /></a>
           </div>
           <br />
           <br />
