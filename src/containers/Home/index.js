@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import privateMembersAreaImg from 'assets/images/private-members-area.png';
+import privateMembersAreaImg from 'assets/images/full-stack-dapps-signin-with-laptop-2.png';
 import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover.png';
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
@@ -188,7 +188,7 @@ export default class Home extends Component {
               It's the best and only training program that quickly and easily helps you master front-end engineering skills.  Once you do, you'll be able to turn any Smart Contract into a dApp.
             </p>
             <p>Everything we build is fully responsive, runs on any device (mobile + desktop), or the latest dApp browser.</p>
-            <p>Register to get instant access to the private member's area, .</p>
+            <p>Here is where you can get instant access to the private member's area:</p>
             <br />
             <br />
             <a href="https://fullstackdapps.com/amazing-value-offer"><img src={privateMembersAreaImg} alt="Full Stack dApps main page image" /></a>
