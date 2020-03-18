@@ -181,14 +181,14 @@ export default class Home extends Component {
           <br />
           <div id="learn" className="section">
             <h2>Training Program</h2>
-            <p>For those ready to accelerate their mastery of dApp development, register for the <a href="https://fullstackdapps.com/amazing-value-offer" target="_blank">Full Stack DApps Training Program</a>.</p>
+            <p>For those ready to accelerate their mastery of dApp development, register for the <a href="https://fullstackdapps.com/amazing-value-offer">Full Stack DApps Training Program</a>.</p>
             <p>The program quickly and easily teaches you how to develop and design a real dApp using Truffle, React, Redux, and  Smart Contracts for Ethereum.
             </p>
             <p>
               It's the best and fastest way to master front-end engineering skills for blockchain development.  Once you do, you'll be able to turn any Smart Contract into a dApp.
             </p>
             <p>Everything we build in the training program is fully responsive, runs on any device (mobile + desktop), or the latest dApp browser.</p>
-            <p>Here is where you can get instant access to the private member's area:</p>
+            <p>Click <a href="https://fullstackdapps.com/amazing-value-offer">here</a> to get instant access to the private member's area:</p>
             <br />
             <br />
             <a href="https://fullstackdapps.com/amazing-value-offer"><img src={privateMembersAreaImg} alt="Full Stack dApps main page image" /></a>
