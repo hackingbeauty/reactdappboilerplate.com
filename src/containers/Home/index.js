@@ -4,6 +4,7 @@ import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
 import drizzleImg           from 'assets/images/drizzle.png';
+import fullStackDappsWebinarSnapshot from 'assets/images/how-to-develop-a-full-stack-dapp-for-ethereum.png';
 import { styles }           from './styles.scss'
 
 export default class Home extends Component {
@@ -141,6 +142,25 @@ export default class Home extends Component {
               </li>
             </ul>
           </div>
+
+          <br />
+          <br />
+
+          <div id="full-stack-dapp-training-workshop" className="section">
+            <h2>Register For The Training Workshop</h2>
+            <p>Learn how to build dApps for Ethereum in the new training workshop <a href="https://fullstackdapps.com/">"How To Develop A Full Stack DApp For Ethereum"</a>.</p>
+            <br />
+            <a href="https://fullstackdapps.com">
+              <img className="box-shadow" src={fullStackDappsWebinarSnapshot} alt="training video" />
+            </a>
+            <br />
+            <br />
+            <br />
+            <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s">Watch the training video on Youtube now.</a>
+          </div>
+          <br />
+
+
           <br />
           <br />
           <div id="youtube-video" className="section">
