@@ -1,5 +1,4 @@
 import React, { Component }  from 'react';
-import privateMembersAreaImg from 'assets/images/full-stack-dapps-signin-with-laptop-2.png';
 import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover.png';
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
@@ -194,24 +193,8 @@ export default class Home extends Component {
           <br />
           <div className="section">
             <h2>Join The Slack Community</h2>
-            <p>Send an email to Mark and request access to the <a href="mailto:support@fullstackdapps.com" target="_blank">Slack community</a> to get help and ask questions.
+            <p>Send an email to Mark and request access to the <a href="https://fullstackdapps-slack-invite.herokuapp.com" target="_blank">Slack community</a> to get help and ask questions.
             </p>
-          </div>
-          <br />
-          <br />
-          <div id="learn" className="section">
-            <h2>Training Program</h2>
-            <p>For those ready to accelerate their mastery of dApp development, register for the <a href="https://fullstackdapps.com/amazing-value-offer">Full Stack DApps Training Program</a>.</p>
-            <p>The program quickly and easily teaches you how to develop and design a real dApp using Truffle, React, Redux, and  Smart Contracts for Ethereum.
-            </p>
-            <p>
-              It's the best and fastest way to master front-end engineering skills for blockchain development.  Once you do, you'll be able to turn any Smart Contract into a dApp.
-            </p>
-            <p>Everything we build in the training program is fully responsive, runs on any device (mobile + desktop), or the latest dApp browser.</p>
-            <p>Click <a href="https://fullstackdapps.com/amazing-value-offer">here</a> to get instant access to the private member's area:</p>
-            <br />
-            <br />
-            <a href="https://fullstackdapps.com/amazing-value-offer"><img src={privateMembersAreaImg} alt="Full Stack dApps main page image" /></a>
           </div>
           <br />
           <br />
