@@ -146,7 +146,7 @@ export default class Home extends Component {
           <br />
 
           <div id="full-stack-dapp-training-workshop" className="section">
-            <h2>Register For The Training Workshop</h2>
+            <h2>Register For The FREE Training Workshop</h2>
             <p>Learn how to build dApps for Ethereum in the new training workshop "<a href="https://fullstackdapps.com/">How To Develop A Full Stack DApp For Ethereum</a>".</p>
             <br />
             <a href="https://fullstackdapps.com">
