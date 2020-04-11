@@ -1,9 +1,10 @@
-import React, { Component }  from 'react';
+import React, { Component } from 'react';
 import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover.png';
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
 import drizzleImg           from 'assets/images/drizzle.png';
 import fullStackDappsWebinarSnapshot from 'assets/images/how-to-develop-a-full-stack-dapp-for-ethereum.png';
+import ethereumFundamentalsWebinarSnapshot from 'assets/images/ethereum-fundamentals-first-slide.png';
 import { styles }           from './styles.scss'
 
 export default class Home extends Component {
@@ -146,16 +147,20 @@ export default class Home extends Component {
           <br />
 
           <div id="full-stack-dapp-training-workshop" className="section">
-            <h2>Register For The FREE Training Workshop</h2>
-            <p>Learn how to build dApps for Ethereum in the new training workshop "<a href="https://fullstackdapps.com/">How To Develop A Full Stack DApp For Ethereum</a>".</p>
+            <h2>Register For These FREE Training Workshops</h2>
+            <p>Master the fundamentals of Ethereum and blockchain technology in just 1 hour by attending the "<a href="https://ethereumfundamentals.com/">Ethereum Fundamentals</a>" workshop</p>
             <br />
-            <a href="https://fullstackdapps.com">
-              <img className="box-shadow" src={fullStackDappsWebinarSnapshot} alt="training video" />
+            <a href="https://ethereumfundamentals.com">
+              <img className="box-shadow" src={ethereumFundamentalsWebinarSnapshot} alt="Ethereum Fundamentals training workshop" />
             </a>
             <br />
             <br />
+            <p>Learn how to build dApps for Ethereum in the new training workshop "<a href="https://fullstackdapps.com/http://localhost:4000/how-to-develop-a-full-stack-dapp">How To Develop A Full Stack DApp For Ethereum</a>".</p>
             <br />
-            <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s">Watch the training video on Youtube now.</a>
+            <a href="https://fullstackdapps.com/how-to-develop-a-full-stack-dapp">
+              <img className="box-shadow" src={fullStackDappsWebinarSnapshot} alt="How To Develop A Full Stack DApp training workshop" />
+            </a>
+            <br />
           </div>
           <br />
 
