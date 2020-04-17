@@ -53,6 +53,13 @@ export default class Home extends Component {
             <img className="box-shadow" src={boilerplateImg} alt="First view when React DApp boilerplate boots up" />
           </div>
           <br />
+          <div className="section">
+            <h2>One you're up and running with React DApp Boilerplate, then watch <br />"How To Connect A Front-End To A Smart Contract On Ethereum"</h2>
+            <a href="https://www.youtube.com/playlist?list=PLBy3Qkuapv_6tLvQS40-RAK66sAJEpazD"><img className="box-shadow" src={youtubeVideoSnapshot} alt="Youtube series How To Connect A Front-End To A Smart Contract" /></a>
+            <br />
+            <br />
+            <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&amp;t=56s">Watch the training video on Youtube now.</a>
+          </div>
           <br />
           <div id="drizzle-integration" className="section">
             <h2>Do you need Drizzle?</h2>
@@ -161,23 +168,6 @@ export default class Home extends Component {
               <img className="box-shadow" src={fullStackDappsWebinarSnapshot} alt="How To Develop A Full Stack DApp training workshop" />
             </a>
             <br />
-          </div>
-          <br />
-
-
-          <br />
-          <br />
-          <div id="youtube-video" className="section">
-            <h2>Watch The Training Video</h2>
-            <p>Get a personal walkthrough on how React DApp Boilerplate is set up.</p>
-            <br />
-            <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s">
-              <img className="box-shadow" src={youtubeVideoSnapshot} alt="training video" />
-            </a>
-            <br />
-            <br />
-            <br />
-            <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&t=56s">Watch the training video on Youtube now.</a>
           </div>
           <br />
           <br />
