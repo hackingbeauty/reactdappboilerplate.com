@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover.png';
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
-import drizzleImg           from 'assets/images/drizzle.png';
+import notionalImg           from 'assets/images/notional-snapshot.png';
 import fullStackDappsWebinarSnapshot from 'assets/images/how-to-develop-a-full-stack-dapp-for-ethereum.png';
 import ethereumFundamentalsWebinarSnapshot from 'assets/images/ethereum-fundamentals-first-slide.png';
 import { styles }           from './styles.scss'
@@ -21,7 +21,7 @@ export default class Home extends Component {
             <img src={boxCover} width="500px" alt="React DApp boilerplate box cover" />
             <h2 className="description">React DApp Boilerplate gives you an expert front-end architecture for building decentralized applications that use the best libraries the Web has to offer.</h2>
             <br />
-            <h2>Hook it up to any Smart Contract on Ethereum!</h2>
+            <h2>Hook it up to any token Smart Contract on Ethereum!</h2>
           </div>
         </div>
         <div className="container">
@@ -61,6 +61,13 @@ export default class Home extends Component {
             <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&amp;t=56s">Watch the training video on Youtube now.</a>
           </div>
           <br />
+          <div className="section">
+            <h2>React DApp Boilerplate is the front-end foundation used for the DeFi application "Notional".</h2>
+            <p><a href="https://notional.finance/">Notional</a> is the first fixed-interest borrow & lend DeFi application for Yield Farmers on Ethereum.</p>
+            <br />
+            <img src={notionalImg} className="box-shadow" alt="Snapshot of Notional" />
+          </div>
+          <br />
           <div id="drizzle-integration" className="section">
             <h2>Do you need Drizzle?</h2>
             <p>You can install React DApp Boilerplate with two options: with Drizzle or without.  Drizzle is a front-end library that helps
@@ -68,7 +75,7 @@ export default class Home extends Component {
             </p>
             <p>However, the current version of Drizzle has flaws and we anxiously await the relase of Drizzle 2.0.</p>
             <p>In the meantime, you can install a version of React DApp Boilerplate with Drizzle integrated.</p>
-            <p>If you need expert guidance on how to integrate Drizzle into your dApp, and if you want to master it quickly, then check out the <a href="https://fullstackdapps.com">Full Stack DApps training program</a> and get production ready in less than 1 week.  Save a ton of time, and your sanity, by joining the exclusive training program for dApp developers.</p>
+            <p>If you need expert guidance on how to integrate Drizzle into your dApp, and if you want to master it quickly, then check out the <a href="https://6figureblockchaindeveloper.com/">Full Stack DApps™ training program</a> and get production ready in less than 1 week.  Save a ton of time, and your sanity, by joining the exclusive training program for dApp developers.</p>
             <br />
             <br />
             <br />
@@ -80,7 +87,6 @@ export default class Home extends Component {
                 </li>
               </ul>
             </div>
-            <img src={drizzleImg} alt="" />
           </div>
           <div id="summary" className="section">
             <h2>Summary</h2>
@@ -154,10 +160,10 @@ export default class Home extends Component {
           <br />
 
           <div id="full-stack-dapp-training-workshop" className="section">
-            <h2>Register For These FREE Training Workshops</h2>
+            <h2>Access these FREE Training Workshops</h2>
             <p>Master the fundamentals of Ethereum and blockchain technology in just 1 hour by attending the "<a href="https://ethereumfundamentals.com/">Ethereum Fundamentals</a>" workshop</p>
             <br />
-            <a href="https://ethereumfundamentals.com">
+            <a href="https://www.youtube.com/watch?v=Y8P5gDPDFGY&t=182s&ab_channel=Web3BlockchainDeveloper">
               <img className="box-shadow" src={ethereumFundamentalsWebinarSnapshot} alt="Ethereum Fundamentals training workshop" />
             </a>
             <br />
