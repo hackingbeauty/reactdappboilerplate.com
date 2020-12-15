@@ -193,8 +193,8 @@ export default class Home extends Component {
           <br />
           <br />
           <div className="section">
-            <h2>Join The Slack Community</h2>
-            <p>Send an email to Mark and request access to the <a href="https://fullstackdapps-slack-invite.herokuapp.com" target="_blank">Slack community</a> to get help and ask questions.
+            <h2>Join The Facebook Community</h2>
+            <p>Ask top Blockchain and Web3 developers your burning questions in the  <a href="https://www.facebook.com/groups/583659522577259" target="_blank">6 Figure Blockchain Developer</a> Facebook group.
             </p>
           </div>
           <br />
