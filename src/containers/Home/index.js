@@ -3,7 +3,7 @@ import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
 import notionalImg           from 'assets/images/notional-snapshot.png';
-import fullStackDappsWebinarSnapshot from 'assets/images/how-to-develop-a-full-stack-dapp-for-ethereum.png';
+import fullStackDappsWebinarSnapshot from 'assets/images/FSD-webinar.png';
 import ethereumFundamentalsWebinarSnapshot from 'assets/images/ethereum-fundamentals-first-slide.png';
 import { styles }           from './styles.scss'
 
@@ -122,7 +122,7 @@ export default class Home extends Component {
                 <p>Write your app in ES6, and have your code be automatically linted before you can do a Git commit.</p>
               </li>
               <li>
-                <h3><a href="https://fullstackdapps.com">Superior Directory Structure</a></h3>
+                <h3><a href="https://6FigureBlockchainDeveloper.com">Superior Directory Structure</a></h3>
                 <p>The way you organize your directory structure is important.  Don't start out with Create-React-App.</p>
               </li>
               <li>
@@ -130,7 +130,7 @@ export default class Home extends Component {
                 <p>Build a front-end interface that can run on any device on the planet.</p>
               </li>
               <li>
-                <h3><a href="https://fullstackdapps.com">Much, Much More...</a></h3>
+                <h3><a href="https://6FigureBlockchainDeveloper.com">Much, Much More...</a></h3>
                 <p>This set up comes with everything you'll need for you or an entire team.</p>
               </li>
             </ul>
@@ -141,18 +141,18 @@ export default class Home extends Component {
 
           <div id="full-stack-dapp-training-workshop" className="section">
             <h2>Access these FREE Training Workshops</h2>
+            <p>Learn how to build dApps for Ethereum in the new training workshop "<a href="https://hackingbeautyllc.clickfunnels.com/squeeze-page-241711901592272553324">How To Develop A Full Stack DApp For Ethereum</a>".</p>
+            <br />
+            <a href="https://hackingbeautyllc.clickfunnels.com/squeeze-page-241711901592272553324">
+              <img className="box-shadow" src={fullStackDappsWebinarSnapshot} alt="How To Develop A Full Stack DApp training workshop" />
+            </a>
+            <br />
             <p>Master the fundamentals of Ethereum and blockchain technology in just 1 hour by attending the "<a href="https://ethereumfundamentals.com/">Ethereum Fundamentals</a>" workshop</p>
             <br />
             <a href="https://www.youtube.com/watch?v=Y8P5gDPDFGY&t=182s&ab_channel=Web3BlockchainDeveloper">
               <img className="box-shadow" src={ethereumFundamentalsWebinarSnapshot} alt="Ethereum Fundamentals training workshop" />
             </a>
             <br />
-            <br />
-            <p>Learn how to build dApps for Ethereum in the new training workshop "<a href="https://fullstackdapps.com/http://localhost:4000/how-to-develop-a-full-stack-dapp">How To Develop A Full Stack DApp For Ethereum</a>".</p>
-            <br />
-            <a href="https://hackingbeautyllc.clickfunnels.com/squeeze-page-241711901592272553324">
-              <img className="box-shadow" src={fullStackDappsWebinarSnapshot} alt="How To Develop A Full Stack DApp training workshop" />
-            </a>
             <br />
           </div>
           <br />
