@@ -68,26 +68,6 @@ export default class Home extends Component {
             <img src={notionalImg} className="box-shadow" alt="Snapshot of Notional" />
           </div>
           <br />
-          <div id="drizzle-integration" className="section">
-            <h2>Do you need Drizzle?</h2>
-            <p>You can install React DApp Boilerplate with two options: with Drizzle or without.  Drizzle is a front-end library that helps
-            you synchronize the state of your Smart Contract and transaction data with your UI.  It can help you write your dApp front-end more easily and more predictably.
-            </p>
-            <p>However, the current version of Drizzle has flaws and we anxiously await the relase of Drizzle 2.0.</p>
-            <p>In the meantime, you can install a version of React DApp Boilerplate with Drizzle integrated.</p>
-            <p>If you need expert guidance on how to integrate Drizzle into your dApp, and if you want to master it quickly, then check out the <a href="https://6figureblockchaindeveloper.com/">Full Stack DApps™ training program</a> and get production ready in less than 1 week.  Save a ton of time, and your sanity, by joining the exclusive training program for dApp developers.</p>
-            <br />
-            <br />
-            <br />
-            <div className="section installation">
-              <h2>Install React Dapp Boilerplate With Drizzle Integration</h2>
-              <ul>
-                <li>
-                  <span className="command">$ git clone https://github.com/hackingbeauty/react-dapp-boilerplate-with-drizzle.git</span>
-                </li>
-              </ul>
-            </div>
-          </div>
           <div id="summary" className="section">
             <h2>Summary</h2>
             <p>React Dapp Boilerplate is a Truffle Box that helps you develop user-facing DApps connected to Smart Contracts written in Solidity.</p>
@@ -205,6 +185,26 @@ export default class Home extends Component {
               <p>Clients include <a href="https://notional.finance/">Notional.Finance</a> - Ethereum's first fixed rate borrowing & lending platform for DeFi Yield Farmers.</p>
               <p>Please contact Hacking Beauty directly by visiting our website at <a href="http://hackingbeauty.com/">HackingBeauty.com</a>.</p>
             </p>
+          </div>
+          <div id="drizzle-integration" className="section">
+            <h2>Do you need Drizzle?</h2>
+            <p>You can install React DApp Boilerplate with two options: with Drizzle or without.  Drizzle is a front-end library that helps
+            you synchronize the state of your Smart Contract and transaction data with your UI.  Personally, I wouldn't recommend it.    
+            </p>
+            <p>We built Notional.Finance using <a targe="_blank" href="https://thegraph.com/">The Graph</a> which is 1000x better.</p>
+            <p>However, if you really need Drizzle the current version of Drizzle has flaws and we anxiously await the relase of Drizzle 2.0.</p>
+            <p>In the meantime, you can install a version of React DApp Boilerplate with Drizzle integrated.</p>
+            <br />
+            <br />
+            <br />
+            <div className="section installation">
+              <h2>Install React Dapp Boilerplate With Drizzle Integration</h2>
+              <ul>
+                <li>
+                  <span className="command">$ git clone https://github.com/hackingbeauty/react-dapp-boilerplate-with-drizzle.git</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
