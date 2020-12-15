@@ -170,7 +170,7 @@ export default class Home extends Component {
             <br />
             <p>Learn how to build dApps for Ethereum in the new training workshop "<a href="https://fullstackdapps.com/http://localhost:4000/how-to-develop-a-full-stack-dapp">How To Develop A Full Stack DApp For Ethereum</a>".</p>
             <br />
-            <a href="https://fullstackdapps.com/how-to-develop-a-full-stack-dapp">
+            <a href="https://hackingbeautyllc.clickfunnels.com/squeeze-page-241711901592272553324">
               <img className="box-shadow" src={fullStackDappsWebinarSnapshot} alt="How To Develop A Full Stack DApp training workshop" />
             </a>
             <br />
@@ -201,7 +201,9 @@ export default class Home extends Component {
           <br />
           <div className="section">
             <h2>Consulting</h2>
-            <p>Please email Mark Muskardin at <strong>support@fullstackdapps.com</strong> if your company is looking for expertise in building blockchain applications on Ethereum.
+            <p><a href="http://hackingbeauty.com/">Hacking Beauty</a> is building the world's first blockchain applications for Ethereum 2.0.
+              <p>Clients include <a href="https://notional.finance/">Notional.Finance</a> - Ethereum's first fixed rate borrowing & lending platform for DeFi Yield Farmers.</p>
+              <p>Please contact Hacking Beauty directly by visiting our website at <a href="http://hackingbeauty.com/">HackingBeauty.com</a>.</p>
             </p>
           </div>
         </div>
