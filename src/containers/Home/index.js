@@ -61,13 +61,6 @@ export default class Home extends Component {
             <a href="https://www.youtube.com/watch?v=0guqPdxM2GE&amp;t=56s">Watch the training video on Youtube now.</a>
           </div>
           <br />
-          <div className="section">
-            <h2>React DApp Boilerplate is the front-end foundation used for the DeFi application "Notional".</h2>
-            <p><a href="https://notional.finance/">Notional</a> is the first fixed-interest borrow & lend DeFi application for Yield Farmers on Ethereum.</p>
-            <br />
-            <img src={notionalImg} className="box-shadow" alt="Snapshot of Notional" />
-          </div>
-          <br />
           <div id="summary" className="section">
             <h2>Summary</h2>
             <p>React Dapp Boilerplate is a Truffle Box that helps you develop user-facing DApps connected to Smart Contracts written in Solidity.</p>
@@ -147,6 +140,8 @@ export default class Home extends Component {
               <img src={smartContractSecurityFundamentalsSnapshot} alt="Smart Contract Security Fundamentals" />
             </a>
             <br />
+            <br />
+            <br />
             <p>Master the fundamentals of Ethereum and blockchain technology in just 1 hour by attending the <a href="https://www.youtube.com/watch?v=Y8P5gDPDFGY&t=182s&ab_channel=Web3BlockchainDeveloper">Ethereum Fundamentals</a> workshop.</p>
             <br />
             <a href="https://www.youtube.com/watch?v=Y8P5gDPDFGY&t=182s&ab_channel=Web3BlockchainDeveloper">
@@ -205,6 +200,16 @@ export default class Home extends Component {
                 </li>
               </ul>
             </div>
+            <br />
+            <br />
+            <div className="section">
+              <h2>Sample dApps using React DApp Boilerplate</h2>
+              <p><a href="https://notional.finance/">Notional</a> is the first fixed-interest borrow & lend DeFi application for Yield Farmers on Ethereum.</p>
+              <br />
+              <img src={notionalImg} className="box-shadow" alt="Snapshot of Notional" />
+            </div>
+            <br />
+            <br />
           </div>
         </div>
       </div>
