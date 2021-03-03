@@ -3,7 +3,7 @@ import boxCover             from 'assets/images/react-dapp-boilerplate-box-cover
 import boilerplateImg       from 'assets/images/react-dapp-boilerplate-first-view.png';
 import youtubeVideoSnapshot from 'assets/images/react-dapp-boilerplate-youtube-video-snapshot.png';
 import notionalImg           from 'assets/images/notional-snapshot.png';
-import fullStackDappsWebinarSnapshot from 'assets/images/FSD-webinar.png';
+import smartContractSecurityFundamentalsSnapshot from 'assets/images/Smart-Contract-Security-Product-Mockup.png';
 import ethereumFundamentalsWebinarSnapshot from 'assets/images/ethereum-fundamentals-first-slide.png';
 import { styles }           from './styles.scss'
 
@@ -34,15 +34,15 @@ export default class Home extends Component {
               </li>
               <li>
                 <span className="label">Second, install all dependencies.</span>
-                <span className="command">$ npm install</span>
+                <span className="command">$ yarn install</span>
               </li>
               <li>
                 <span className="label">Third, start your local development server.</span>
-                <span className="command">$ npm start</span>
+                <span className="command">$ yarn start</span>
               </li>
               <li>
                 <span className="label">Fourth, create a production build.</span>
-                <span className="command">$ npm run build</span>
+                <span className="command">$ yarn run build</span>
               </li>
             </ul>
           </div>
@@ -141,13 +141,13 @@ export default class Home extends Component {
 
           <div id="full-stack-dapp-training-workshop" className="section">
             <h2>Access these FREE Training Workshops</h2>
-            <p>Learn how to build dApps for Ethereum in the new training workshop "<a href="https://hackingbeautyllc.clickfunnels.com/squeeze-page-241711901592272553324">How To Develop A Full Stack DApp For Ethereum</a>".</p>
+            <p>Learn the fundamentals of Smart Contract security and Solidity in the new training workshop <a href="https://www.smartcontractsecurity.com/smart-contract-security-fundamentals">Smart Contract Security Fundamentals</a>.</p>
             <br />
-            <a href="https://hackingbeautyllc.clickfunnels.com/squeeze-page-241711901592272553324">
-              <img className="box-shadow" src={fullStackDappsWebinarSnapshot} alt="How To Develop A Full Stack DApp training workshop" />
+            <a href="https://www.smartcontractsecurity.com/smart-contract-security-fundamentals">
+              <img src={smartContractSecurityFundamentalsSnapshot} alt="Smart Contract Security Fundamentals" />
             </a>
             <br />
-            <p>Master the fundamentals of Ethereum and blockchain technology in just 1 hour by attending the "<a href="https://ethereumfundamentals.com/">Ethereum Fundamentals</a>" workshop</p>
+            <p>Master the fundamentals of Ethereum and blockchain technology in just 1 hour by attending the <a href="https://www.youtube.com/watch?v=Y8P5gDPDFGY&t=182s&ab_channel=Web3BlockchainDeveloper">Ethereum Fundamentals</a> workshop.</p>
             <br />
             <a href="https://www.youtube.com/watch?v=Y8P5gDPDFGY&t=182s&ab_channel=Web3BlockchainDeveloper">
               <img className="box-shadow" src={ethereumFundamentalsWebinarSnapshot} alt="Ethereum Fundamentals training workshop" />
@@ -187,9 +187,9 @@ export default class Home extends Component {
             </p>
           </div>
           <div id="drizzle-integration" className="section">
-            <h2>Do you need Drizzle?</h2>
+            <h2>Do you need Drizzle (not recommended)?</h2>
             <p>You can install React DApp Boilerplate with two options: with Drizzle or without.  Drizzle is a front-end library that helps
-            you synchronize the state of your Smart Contract and transaction data with your UI.  Personally, I wouldn't recommend it.    
+            you synchronize the state of your Smart Contract and transaction data with your UI.  Personally, I wouldn't recommend it.  I would integrate my front-end with <a href="https://thegraph.com/" target="_blank">The Graph Protocol</a> instead.  
             </p>
             <p>We built Notional.Finance using <a targe="_blank" href="https://thegraph.com/">The Graph</a> which is 1000x better.</p>
             <p>However, if you really need Drizzle the current version of Drizzle has flaws and we anxiously await the relase of Drizzle 2.0.</p>
