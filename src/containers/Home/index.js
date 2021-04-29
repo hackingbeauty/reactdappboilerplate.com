@@ -134,9 +134,9 @@ export default class Home extends Component {
 
           <div id="full-stack-dapp-training-workshop" className="section">
             <h2>Access these FREE Training Workshops</h2>
-            <p>Learn the fundamentals of Smart Contract security and Solidity in the new training workshop <a href="https://www.smartcontractsecurity.com/smart-contract-security-fundamentals">Smart Contract Security Fundamentals</a>.</p>
+            <p>Learn the fundamentals of Smart Contract security and Solidity in the new training workshop <a href="https://security.6figureblockchaindeveloper.com/smart-contract-security-fundamentals">Smart Contract Security Fundamentals</a>.</p>
             <br />
-            <a href="https://www.smartcontractsecurity.com/smart-contract-security-fundamentals">
+            <a href="https://security.6figureblockchaindeveloper.com/smart-contract-security-fundamentals">
               <img src={smartContractSecurityFundamentalsSnapshot} alt="Smart Contract Security Fundamentals" />
             </a>
             <br />
